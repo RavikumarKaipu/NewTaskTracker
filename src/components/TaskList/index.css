@@ -1,0 +1,41 @@
+.table-container{
+    border: 3px solid black;
+    border-collapse: collapse; /* Ensures borders are merged */
+    min-width: 100%; 
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+th,td{
+    padding: 5px;
+}
+button {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #007bff; /* Blue for Edit by default */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-right: 4px;
+
+}
+  
+  button.delete {
+    background-color: #dc3545; 
+ 
+  }
+  
+  button:hover {
+    transform: scale(1.1); /* Slightly enlarges the button */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Adds shadow */
+  }
+  
+  button:active {
+    transform: scale(0.95); /* Shrinks button slightly when clicked */
+    box-shadow: 0px 4px 15px red; /* Removes shadow on click */
+  }
+  

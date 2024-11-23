@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  min-height: 100vh; 
+  margin: 0; 
+
+  font-family: Arial, sans-serif; 
+  background-color: rgba(165, 226, 43, 0.238);
+}
+.heading{
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 36px;
+  color:rgb(205, 109, 50);
+  text-align: center;
+
+
+}
+.app-container{
+  background-color: rgb(100, 237, 219);
+  min-height: 40vh;
+  padding: 10px;
+  margin-top: 40px;
+  border: 3px solid green;
+  border-radius: 30px;
+  min-width: 70vh;
+  box-shadow: 33px 43px 33px darkblue,44px 44px 44px rgb(78, 205, 50);
+}
+label{
+  font: 300;
+  font-size: 18px;
+  color: rgb(255, 0, 0);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+input{
+  padding: 4px;
+}
